@@ -62,3 +62,34 @@ h1, h2, h3, h4, h5, h6{
     margin:auto;
     overflow:auto;
 }
+
+.video-content {
+    padding-top: 2em !important;
+    text-align: center;
+    background-color:#ccf5ff;
+}
+
+.video-content h1{
+    color: #222;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 1em;
+	height: 0;
+	overflow: hidden;
+}
+
+.footer{
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    display: block;
+    height: 3em;
+    line-height: 3em;
+}
+
+.footer span, .footer i{
+    vertical-align: middle;
+}
