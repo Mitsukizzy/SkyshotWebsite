@@ -47,12 +47,17 @@ h1, h2, h3, h4, h5, h6{
 
 .splashart {
     position:relative;
-    height:calc(100vh - 3em);
+    height:calc(100vh - 3em); /* Make sure this is calc(100vh - [height of .navbar]);*/
     background-color:#ccc;
+    z-index:-5;
 }
 
 .splashart-layer {
-    position:relative;
+    background-size:cover;
+    background-position:center;
+    position:fixed;
+    width:100%;
+    height:100%;
 }
 
 .landing-content {
