@@ -43,7 +43,11 @@ a{
     -ms-transition: height 0.5s;
     transition: height 0.5s;
 }
-
+.galleria { 
+    width: 100vw; 
+    height: 90vh; 
+    background: #000 
+}
 .pure-menu a {
     line-height:2em;
 }
