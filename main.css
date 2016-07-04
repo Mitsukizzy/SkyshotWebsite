@@ -102,6 +102,13 @@ a{
     overflow: auto;
 }
 
+.feed {
+    height: 90vh;
+    width: 100%;
+    border: none;
+    overflow: hidden;
+}
+
 .team-content{
     height: 90vh;
     width: 100%;
