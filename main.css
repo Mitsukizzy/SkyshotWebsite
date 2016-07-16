@@ -206,3 +206,7 @@ input:checked + label {
 .footer span, .footer i{
     vertical-align: middle;
 }
+
+.fb-page span {
+    width:100%;
+}
