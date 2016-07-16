@@ -129,26 +129,6 @@ a{
     overflow: hidden;
 }
 
-#fb-widget {
-    width:100%!important;
-    height:100%!important;
-}
-
-#fb-widget span {
-    width:100%!important;
-    height:100%!important;
-}
-
-#fb-widget span iframe {
-    width:100%!important;
-    height:100%!important;
-}
-
-._2p3a {
-    width:100%!important;
-    height:100%!important;
-}
-
 .team-content{
     height: 90vh;
     width: 100%;
