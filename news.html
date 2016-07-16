@@ -20,9 +20,9 @@
         <!-- JQuery & JS -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
         <script src="galleria/galleria-1.4.2.min.js"></script>
-        <script src="landing.js"></script>
+        <script src="news.js"></script>
     </head>
-<body>
+<body onclick="appendCSS();">
     <!-- Top Navbar -->
     <div class="pure-g navbar">
         <div class="pure-u-1 pure-u-md-2-3">
@@ -73,11 +73,6 @@
       js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6&appId=336340749867231";
       fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
-        var cssLink = document.createElement("link")
-        cssLink.href = "news.css";
-        cssLink.rel = "stylesheet";
-        cssLink.type = "text/css";
-        frames[0].document.body.appendChild(cssLink);
     </script>
 </body>
 </html>
