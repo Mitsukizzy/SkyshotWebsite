@@ -119,6 +119,7 @@ a{
     background-color: #fff;
     margin: auto;
     overflow: auto;
+    text-align:center;
 }
 
 .feed {
