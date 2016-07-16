@@ -207,12 +207,17 @@ input:checked + label {
     vertical-align: middle;
 }
 
-/*.fb-page span {
+#fb-widget {
     width:100%!important;
     height:100%!important;
 }
 
-.fb-page span iframe {
+#fb-widget span {
+    width:100%!important;
+    height:100%!important;
+}
+
+#fb-widget span iframe {
     width:100%!important;
     height:100%!important;
 }
@@ -220,8 +225,4 @@ input:checked + label {
 ._2p3a {
     width:100%!important;
     height:100%!important;
-}*/
-
-#fb-widget {
-
 }
