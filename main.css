@@ -43,6 +43,16 @@ a{
     -ms-transition: height 0.5s;
     transition: height 0.5s;
 }
+
+#navbar-logo {
+    background-image:url('img/LogoWhite_Small.fw.png');
+    background-repeat:no-repeat;
+    background-size:90%;
+    background-position:center;
+    width:120px;
+    height:100%;
+}
+
 .galleria { 
     width: 100vw; 
     height: 90vh; 
@@ -67,18 +77,27 @@ a{
     height:100%;
 }
 
+.landing-content-container {
+    width:100%;
+    background:#fff;
+}
+
 .landing-content {
     width:100%;
     max-width:1280px;
-    background-color:#fcc;
+    /*background-color:#fcc;*/
     margin:auto;
     overflow:auto;
+}
+
+.landing-content h1 {
+    color: #222;
 }
 
 .video-content {
     padding-top: 2em !important;
     text-align: center;
-    background-color:#ccf5ff;
+    /*background-color:#ccf5ff;*/
 }
 
 .video-content h1{
