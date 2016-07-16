@@ -208,5 +208,16 @@ input:checked + label {
 }
 
 .fb-page span {
-    width:100%;
+    width:100%!important;
+    height:100%!important;
+}
+
+.fb-page span iframe {
+    width:100%!important;
+    height:100%!important;
+}
+
+._2p3a {
+    width:100%!important;
+    height:100%!important;
 }
