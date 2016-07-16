@@ -120,10 +120,12 @@ a{
     margin: auto;
     overflow: auto;
     text-align:center;
+    vertical-align:middle;
 }
 
 .feed {
     height: 90vh;
+    max-height: 500px;
     width: 100%;
     border: none;
     overflow: hidden;
