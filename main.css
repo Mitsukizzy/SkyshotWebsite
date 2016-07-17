@@ -133,44 +133,71 @@ a{
     margin: 0 auto; 
     min-width: 320px; 
     max-width: 1280px;
+    text-align: center;
 }
 
 .content {
-    background: #fff; 
-    color: #373737;
+    background: #777; 
+    min-height: 50vh;
+    text-align: left;
 }
 .content > div {
     display: none; 
-    padding: 20px 25px 5px;
-    min-height: 50vh;
+    padding: 3em 8em 2em 8em;
 }
-
-.tabs input {
-    display: none;
+.content h2{
+    color: #87CEEB;
 }
-
-label {
-    display: inline-block; 
-    padding: 15px 25px; 
-    font-weight: 600; 
+.content h3{
+    padding: 0 0 5px 0;
+}
+.content h5{
+    margin: 5px 0 75px 0;
+}
+.content a{
+    color: #87CEEB;
+}
+.content-image{
     text-align: center;
 }
-label:hover {
+.centered-image{  
+    position: relative;
+    top: 50%;
+    transform: translateY(15%);
+    max-height: 125px;
+    max-width: 125px;
+}
+
+.tabs label, .tabs img {
+    text-align: center;
+}
+
+.tablink:hover{
+    background-color: #87CCBB;
+}
+
+.tablink:hover, .tablink label{
     color: #fff; 
     cursor: pointer;
 }
-input:checked + label {
-    background: #87CEEB; 
-    color: #fff;
+
+.active{
+    background-color: #87CEEB !important;
 }
- 
-#tab1:checked ~ .content #content1,
-#tab2:checked ~ .content #content2,
-#tab3:checked ~ .content #content3,
-#tab4:checked ~ .content #content4,
-#tab5:checked ~ .content #content5,
-#tab6:checked ~ .content #content6  {
- display: block;
+
+.tabcontent {
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 /* END: Team Page Tab Logic and Styling */
 

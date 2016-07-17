@@ -19,8 +19,7 @@
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css"> <!--Required for responsive grid-->
         <!-- JQuery & JS -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-        <script src="galleria/galleria-1.4.2.min.js"></script>
-        <script src="landing.js"></script>
+        <script src="team.js"></script>
     </head>
 <body>
     <!-- Top Navbar -->
@@ -39,87 +38,341 @@
     
     <!-- Team Body -->
     <div class="team-content">
-        <div class="pure-g">           
+        <h1 class="team-header">Meet the Team</h1>
+
+        <div class="tabs pure-g">                    
+            <div class="pure-u-1-6 tablink" onclick="selectTab(event, 'Production')">
+                <label>
+                    <h2>Production</h2>
+                    <img src="http://placehold.it/100x100">             
+                </label>
+            </div>
+
+            <div class="pure-u-1-6 tablink" onclick="selectTab(event, 'Design')">
+                <label>
+                    <h2>Design</h2>
+                    <img src="http://placehold.it/100x100">
+                </label>
+            </div>
+
+            <div class="pure-u-1-6 tablink" onclick="selectTab(event, 'Engineering')">        
+                <label>
+                    <h2>Engineering</h2>
+                    <img src="http://placehold.it/100x100">
+                </label>               
+            </div>            
+
+            <div class="pure-u-1-6 tablink" onclick="selectTab(event, 'Usability')">
+                <label>
+                    <h2>Usability</h2>
+                    <img src="http://placehold.it/100x100">
+                </label>
+            </div>
+
+            <div class="pure-u-1-6 tablink" onclick="selectTab(event, 'Art')">
+                <label>
+                    <h2>Art</h2>
+                    <img src="http://placehold.it/100x100">
+                </label>
+            </div>
+
+            <div class="pure-u-1-6 tablink" onclick="selectTab(event, 'Audio')">
+                <label>
+                    <h2>Audio</h2>
+                    <img src="http://placehold.it/100x100">
+                </label>    
+            </div>                
+
             <div class="pure-u-1">
-                <h1 class="team-header">Choose a Team</h1>
-                
-                <div class="tabs">
-                    <input id="tab1" type="radio" name="tabs" checked>
-                    <label for="tab1">
-                        <h2>Production</h2>
-                        <img src="http://placehold.it/100x100">
-                    </label>
-
-                    <input id="tab2" type="radio" name="tabs">
-                    <label for="tab2">
-                        <h2>Design</h2>
-                        <img src="http://placehold.it/100x100">
-                    </label>
-                                        
-                    <input id="tab3" type="radio" name="tabs">
-                    <label for="tab3">
-                        <h2>Engineering</h2>
-                        <img src="http://placehold.it/100x100">
-                    </label>
-                    
-                    <input id="tab4" type="radio" name="tabs">
-                    <label for="tab4">
-                        <h2>Usability</h2>
-                        <img src="http://placehold.it/100x100">
-                    </label>
-                    
-                    <input id="tab5" type="radio" name="tabs">
-                    <label for="tab5">
-                        <h2>Art</h2>
-                        <img src="http://placehold.it/100x100">
-                    </label>
-                    
-                    <input id="tab6" type="radio" name="tabs">
-                    <label for="tab6">
-                        <h2>Audio</h2>
-                        <img src="http://placehold.it/100x100">
-                    </label>                    
-                    
-                    <div class="content">  
-                        <div id="content1">
-                            <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                            </p>
+                <div class="content">  
+                    <div id="Production" class="pure-g tabcontent">  
+                        <div class="pure-u-1-5 content-image">
+                            <img class="centered-image" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-1/c111.57.160.160/p240x240/12814141_10205832615523903_6890575645074321739_n.jpg?oh=afed6fe320604ccc07f93c2feb6f35a1&oe=58321D5B">
                         </div>
-
-                        <div id="content2">
+                        <div class="pure-u-4-5">
+                            <h2>Izzy Benavente</h2>
+                            <h3>Production Lead</h3>
                             <p>
-                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-                            </p>
+                            Izzy is a senior studying Computer Science (Games) and Applied Computer Security at USC. She is a productivity enthusiast, coffee lover, and avid hackathon hacker. Her work experience includes consecutive internships at Infinity Ward working on Call of Duty: Infinite Warfare as an Engineering Intern on the UI team. Izzy loves narrative-driven games with a good mix of action and adventure like Assassin's Creed II. In her spare time, she enjoys outswagging plebs on Rocket League.
+                            </p>    
+                            <h5>
+                                Contact: izzybenavente@gmail.com <br />
+                                Portfolio Site: <a href="http://izzybenavente.me/" target="_blank">http://izzybenavente.me/</a>
+                            </h5>
                         </div>
-                        <div id="content3">
-                            <p>
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-                            </p>
+                        
+                        <div class="pure-u-1-5 content-image">
+                            <img class="centered-image" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-1/c14.45.492.492/10703_841228665923659_8776625523649321579_n.jpg?oh=63b3a0a869a4bbf941dcc3c5204e04b5&oe=57EEC843">
                         </div>
-                        <div id="content4">
+                        <div class="pure-u-4-5">
+                            <h2>Zach Chaco</h2>
+                            <h3>Producer</h3>
                             <p>
-                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-                            </p>
-                        </div>    
-                        <div id="content5">
-                            <p>
-                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                            </p>
-                        </div>  
-                        <div id="content6">
-                            <p>
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-                            </p>
-                        </div>                      
+                            Zach Chaco is a senior studying Computer Science (Games) at USC. He enjoys working with various teams on projects and events and is interested in team development and production. His interests outside of gaming include wearing suits, reading comic books, and community organizing, especially witin the Filipino community. 
+                            </p> 
+                            <h5>
+                                Contact: zjchaco12@gmail.com
+                            </h5>
+                        </div>
                     </div>
+
+                    <div id="Design" class="pure-g tabcontent">
+                        <div class="pure-u-1-5 content-image">
+                            <img class="centered-image" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAOCAAAAJGYyY2JhZmMxLTUwN2MtNDZjZS1hZGU4LWUxYmUxMDU5OTQyZA.jpg">
+                        </div>
+                        <div class="pure-u-4-5">
+                            <h2>Charles Hankins III</h2>
+                            <h3>Design Lead</h3>
+                            <p>
+                            Charles is a senior at USC majoring in Computer Science (Games). A long history as a multi-sport athlete and an enthusiast of many different game genres has led him to pursue game design, programming, and team management. Outside of game making, Charles is an avid fan of hockey and competitive Super Smash Bros. and recently has been learning how to play both. 
+                            </p>    
+                            <h5>
+                                Contact: chankthethird@gmail.com
+                            </h5>
+                        </div>
+                        
+                        <div class="pure-u-1-5 content-image">
+                            <img class="centered-image" src="http://placehold.it/100x100">
+                        </div>
+                        <div class="pure-u-4-5">
+                            <h2>Valerie Lin</h2>
+                            <h3>Designer</h3>
+                            <p>
+                            Valerie is a junior at USC studying Interactive Media with a double minor in Computer Programming and Neuroscience. She talks way too much about VR and worked as a VR developer at Sony. She mains Tracer in Overwatch and hates good Soldier 76s with the passion of a thousand burning suns. 
+                            </p> 
+                            <h5>
+                                Contact: randomfire27@gmail.com
+                            </h5>
+                        </div>
+                    </div>
+                    
+                    <div id="Engineering" class="pure-g tabcontent">
+                        <div class="pure-u-1-5 content-image">
+                            <img class="centered-image" src="http://i.imgur.com/37UiyIZ.gif">
+                        </div>
+                        <div class="pure-u-4-5">
+                            <h2>Aaron Hong</h2>
+                            <h3>Engineering Lead</h3>
+                            <p>
+                            Aaron is the current lead engineer for Skyshot, and a senior studying Computer Science Games at USC. I am very bad at Overwatch. He enjoys jazz music and competitive video games.
+                            </p>    
+                            <h5>
+                                Contact: hong.aaron.c@gmail.com <br />
+                                Portfolio Site: <a href="http://aaron-hong.com" target="_blank">http://aaron-hong.com</a>
+                            </h5>
+                        </div>
+                        
+                        <div class="pure-u-1-5 content-image">
+                            <img class="centered-image" src="http://placehold.it/100x100">
+                        </div>
+                        <div class="pure-u-4-5">
+                            <h2>Nathan Iskandar</h2>
+                            <h3>Engineer</h3>
+                            <p>
+                            - Information Pending -
+                            </p> 
+                            <h5>
+                                Contact: 
+                            </h5>
+                        </div>
+                        <div class="pure-u-1-5 content-image">
+                            <img class="centered-image" src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/12795466_1048789045143509_7027098214774365609_n.jpg?oh=92d7ca76478b9b614935b47140d5c43c&oe=57C973E4">
+                        </div>
+                        <div class="pure-u-4-5">
+                            <h2>Steven Truong</h2>
+                            <h3>Engineer</h3>
+                            <p>
+                            Steven is a senior that is probably the only Computer Science (!Games) major on the team, but is pursuing a minor in video game programming. He likes history trivia, sci-fi movies, chicken nuggets, and dried mangoes.  
+                            </p>    
+                            <h5>
+                                Contact: snhant@gmail.com
+                            </h5>
+                        </div>                        
+                        <div class="pure-u-1-5 content-image">
+                            <img class="centered-image" src="http://placehold.it/100x100">
+                        </div>
+                        <div class="pure-u-4-5">
+                            <h2>Kyle San</h2>
+                            <h3>Engineer</h3>
+                            <p>
+                            Kyle is the best Overwatch player on Team Skyshot, consistently top fragging and earning 4 gold medals while his team weighs him down. His favorite hero is Mercy but due to the fact that everyone else sucks he cannot play her and expect to win. His favorite carry is Genji because his Carbon Fiber skin is badass. By mastering Genji Kyle hopes to steal his parkour mechanics for Skyshot.
+                            </p> 
+                            <h5>
+                                Contact: randomfire27@gmail.com
+                            </h5>
+                        </div>
+                    </div>
+                    
+                    <div id="Usability" class="pure-g tabcontent">
+                        <div class="pure-u-1-5 content-image">
+                            <img class="centered-image" src="http://placehold.it/100x100">
+                        </div>
+                        <div class="pure-u-4-5">
+                            <h2>Devin Li</h2>
+                            <h3>Usability Lead</h3>
+                            <p>
+                            Devin Li is the current usability lead for Team Skyshot as well as a senior studying Computer Science (Games) at USC. Throughout his life, Devin was an avid gamer, surrounding himself not only in video games, but also board games and sports (IRL video games). He is currently an active member in the Super Smash Bros. club at USC as well as MEGA. In the upcoming year, Devin will work to make sure that our game is balanced, bug-free, and most importantly, fun.
+                            </p>    
+                            <h5>
+                                Contact:
+                            </h5>
+                        </div>
+                        
+                        <div class="pure-u-1-5 content-image">
+                            <img class="centered-image" src="http://placehold.it/100x100">
+                        </div>
+                        <div class="pure-u-4-5">
+                            <h2>Audrey Cheng</h2>
+                            <h3>Usability Tester</h3>
+                            <p>
+                            Audrey is a current sophomore studying Interactive Media at USC with a minor in Game User Research. She loves superhero movies, Super Smash, League of Legends, and an occasional sappy anime. As a member of Skyshot's usability team, she's excited to help make the game as successful as possible. 
+                            </p> 
+                            <h5>
+                                Contact: 
+                            </h5>
+                        </div>
+                        <div class="pure-u-1-5 content-image">
+                            <img class="centered-image" src="https://lh3.googleusercontent.com/ot5AV3ymmTCYGmuezx6j2FG11zBFonnI9qjJHcyynRLvqBtZDB-yJeTz4W5ahSrPMpYsee5HLkFMrrwo-OOecRNWI5Ihd_dhGuXuDOG91HZHBfm3-1lRanl40HytVU7By2ccLN3Xblvmy_0Sr-9EdlFNzj3Fp-rQvoITvshtBNWwfFRs8NBRmUACQWNC4DR7GYPKrDlqObCj6xm-aiCUBvsyqjKJmFlLrx2j83TwCwuV3eMX5611hy3SQAMz-RuILPWuJOWBP70TFNWxU-YpErZJqDi1ugP2WSFDqtjGZekVJSF24XxjfOAuTU4uea2keugRcZAfT586H_TfhNU_i5Xl0V5jNpF_B9_4L3Ttwx3j29C1ISwk1M_b4ifH3dY7QTvormnvdjSgWGPZG68oIkzvpcG8X3GzScTXI5XURvT653FB-YMm2OoZO14au5MstZEKCnXYIERKHQEPAMjC5v_07c6Q718oO6Gt3nmE5WYjunQLDQ4NZqQeXjAzSHnfNwPaqhfGSFhmrCQJXPFhhXnGCPdm8qS0UjqWpCJul8ogKJjwszCkJQZpuG_5PRYYRwVHvH3y13agx8mbnbrMVU6gE4gFuuw=w664-h995-no">
+                        </div>
+                        <div class="pure-u-4-5">
+                            <h2>Albert Yue</h2>
+                            <h3>Engineer</h3>
+                            <p>
+                            Yue discovered the joys of PvP and computer games through Starcraft Brood War. From there,  his competitive spirit and passion for computers lead him to study Computer Science (Games) at USC. His hobbies outside of gaming consist of martial arts, card tricks, longboarding, and building gundam model kits.
+                            </p>    
+                            <h5>
+                                Contact: albertalbert9595@gmail.com
+                            </h5>
+                        </div>     
+                    </div>    
+                    
+                    <div id="Art" class="pure-g tabcontent">
+                        <div class="pure-u-1-5 content-image">
+                            <img class="centered-image" src="http://placehold.it/100x100">
+                        </div>
+                        <div class="pure-u-4-5">
+                            <h2>Jasmine Ying</h2>
+                            <h3>Art Lead</h3>
+                            <p>
+                            Jasmine is a senior at USC in the Computer Science (Games) program and the current art lead on Team Skyshot. 
+                            </p>    
+                            <h5>
+                                Contact: jazying@gmail.com
+                            </h5>
+                        </div>
+                        
+                        <div class="pure-u-1-5 content-image">
+                            <img class="centered-image" src="http://placehold.it/100x100">
+                        </div>
+                        <div class="pure-u-4-5">
+                            <h2>Richard Chen</h2>
+                            <h3>2D Artist</h3>
+                            <p>
+                            Richard Chen is a Interactive Media senior at USC. He likes to draw and create stories, creating and dabbing in many mediums, mostly artistic, with some technical skills in coding. Enjoys a lot of simple games and games with stories, always up for a few rounds of Tetris.
+                            </p> 
+                            <h5>
+                                Contact: <br />
+                                Portfolio Site: 
+                                <a href="http://ceroblitz.com" target="_blank">
+                                    http://ceroblitz.com
+                                </a>
+                            </h5>
+                        </div>
+                        <div class="pure-u-1-5 content-image">
+                            <img class="centered-image" src="http://placehold.it/100x100">
+                        </div>
+                        <div class="pure-u-4-5">
+                            <h2>Miguel Ocana</h2>
+                            <h3>3D Artist</h3>
+                            <p>
+                            Miguel is a senior studying Game Design at USC Interactive Media. He likes to improve his skills both in 2D and 3D art when he has the chance, as well as any other skills related to Game Development. Some of his interests include coop games, films, comic books, tv shows, science fiction, and the ocational recreational sports.
+                            </p>    
+                            <h5>
+                                Contact: miguelocanamercado@gmail.com <br />
+                                Portfolio Site: 
+                                <a href="https://pathbrite.com/miguelocanam/IwII" target="_blank">
+                                    https://pathbrite.com/miguelocanam/IwII
+                                </a>
+                            </h5>
+                        </div>                        
+                        <div class="pure-u-1-5 content-image">
+                            <img class="centered-image" src="http://placehold.it/100x100">
+                        </div>
+                        <div class="pure-u-4-5">
+                            <h2>Caroline Chiou</h2>
+                            <h3>2D Artist</h3>
+                            <p>
+                            Caroline Chiou is a senior Fine Arts major at USC, and is a concept artist on Skyshot. She spends most of her time drawing and playing RPGs, but also enjoys participating in game jams.
+                            </p> 
+                            <h5>
+                                Contact: chioucaroline@gmail.com <br />
+                                Portfolio Site: 
+                                <a href="http://carolinechiou.com" target="_blank">
+                                    http://carolinechiou.com
+                                </a>
+                            </h5>
+                        </div>
+                    </div>                      
+                    
+                    <div id="Audio" class="pure-g tabcontent">
+                        <div class="pure-u-1-5 content-image">
+                            <img class="centered-image" src="http://placehold.it/100x100">
+                        </div>
+                        <div class="pure-u-4-5">
+                            <h2>Thomas Kelleher</h2>
+                            <h3>Audio Lead</h3>
+                            <p>
+                            Thomas is the Lead Audio Designer of Skyshot, and a senior undergraduate student at USC.  He studies Interactive Media with minors in Game Programming and Game Audio Design.  Thomas has worked as a VR game developer for Sony, and is a sound designer for Magnus, which will soon be available on Steam.  He loves fighting games, horror movies, and The Americans.
+                            </p>    
+                            <h5>
+                                Contact: ThomasKWasTaken@gmail.com <br />
+                                Portfolio Site: <a href="www.thomasjkelleher.com" target="_blank">www.thomasjkelleher.com</a>
+                            </h5>
+                        </div>
+                        
+                        <div class="pure-u-1-5 content-image">
+                            <img class="centered-image" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/13177405_10207585462567071_3835855566324692968_n.jpg?oh=520e0e82b0b8a6082cc5d06713a34686&oe=57F3BDE0">
+                        </div>
+                        <div class="pure-u-4-5">
+                            <h2>Davis Natzle</h2>
+                            <h3>Composer</h3>
+                            <p>
+                            Davis is a Music Industry student and the composer for Skyshot. This is his first attempt at composing an interactive score and he hopes to help make the game a competitive and immersive experience. Davis plans to work more with interactive audio in the future and is excited to see how interactive audio will evolve with the growth of the virtual reality industry.
+                            </p> 
+                            <h5>
+                                Contact: 
+                            </h5>
+                        </div>
+                        <div class="pure-u-1-5 content-image">
+                            <img class="centered-image" src="http://placehold.it/100x100">
+                        </div>
+                        <div class="pure-u-4-5">
+                            <h2>Alvin Liang</h2>
+                            <h3>SFX Designer</h3>
+                            <p>
+                            - Information Pending - 
+                            </p>    
+                            <h5>
+                                Contact: 
+                            </h5>
+                        </div>                        
+                        <div class="pure-u-1-5 content-image">
+                            <img class="centered-image" src="http://placehold.it/100x100">
+                        </div>
+                        <div class="pure-u-4-5">
+                            <h2>Graham Southern</h2>
+                            <h3>Composer</h3>
+                            <p>
+                            - Information Pending -
+                            </p> 
+                            <h5>
+                                Contact: 
+                            </h5>
+                        </div>
+                    </div>           
                 </div>
             </div>
-        </div>    
+        </div>
     </div>
     
     <!-- Footer -->
