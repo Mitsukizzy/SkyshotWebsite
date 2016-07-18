@@ -28,6 +28,10 @@ h1, h2, h3, h4, h5, h6{
 .bold{
     font-weight: bold;
 }
+p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;   
+}
 a{
     text-decoration: none;
 }
