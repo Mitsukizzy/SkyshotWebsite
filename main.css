@@ -37,7 +37,7 @@ a{
 }
 
 .navbar {
-    /*position: fixed;*/
+    position: fixed;
     height: 3em;
     width: 100%;
     z-index: 200;
@@ -59,7 +59,7 @@ a{
 
 .galleria { 
     width: 100vw; 
-    height: 90vh; 
+    height: 100vh; 
     background: #000 
 }
 .pure-menu a {
@@ -68,7 +68,7 @@ a{
 
 .splashart {
     position:relative;
-    height:calc(100vh - 3em); /* Make sure this is calc(100vh - [height of .navbar]);*/
+    height:100vh;
     background-color:#ccc;
     z-index:-5;
 }
@@ -131,7 +131,7 @@ a{
 }
 
 .news-content{
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     max-width: 1280px;
     background-color: #fff;
@@ -150,7 +150,7 @@ a{
 }
 
 .team-content{
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     background-image: url(http://www.wallpapereast.com/static/images/pattern-wallpapers.jpg);
     margin: auto;
