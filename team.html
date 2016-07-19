@@ -38,8 +38,11 @@
     
     <!-- Team Body -->
     <div class="team-content">
-        <h1 class="team-header">Meet the Team</h1>
-
+        <div>
+            <div onclick="selectTab(event, 'Default')">
+                <h1 class="team-header">Meet the Team</h1>          
+            </div>
+        </div>
         <div class="tabs pure-g">                    
             <div class="pure-u-1-6 tablink" onclick="selectTab(event, 'Production')">
                 <label>
@@ -85,9 +88,15 @@
 
             <div class="pure-u-1">
                 <div class="content">  
+                     <div id="Default" class="pure-g tabcontent">  
+                        <div class="pure-u-1 content-image">
+                            <img class="group-image" src="http://placehold.it/500x200">
+                        </div>
+                    </div>
+                    
                     <div id="Production" class="pure-g tabcontent">  
                         <div class="pure-u-1-5 content-image">
-                            <img class="centered-image" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-1/c111.57.160.160/p240x240/12814141_10205832615523903_6890575645074321739_n.jpg?oh=afed6fe320604ccc07f93c2feb6f35a1&oe=58321D5B">
+                            <img class="profile-image" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-1/c111.57.160.160/p240x240/12814141_10205832615523903_6890575645074321739_n.jpg?oh=afed6fe320604ccc07f93c2feb6f35a1&oe=58321D5B">
                         </div>
                         <div class="pure-u-4-5">
                             <h2>Izzy Benavente</h2>
@@ -96,13 +105,13 @@
                             Izzy is a senior studying Computer Science (Games) and Applied Computer Security at USC. She is a productivity enthusiast, coffee lover, and avid hackathon hacker. Her work experience includes consecutive internships at Infinity Ward working on Call of Duty: Infinite Warfare as an Engineering Intern on the UI team. Izzy loves narrative-driven games with a good mix of action and adventure like Assassin's Creed II. In her spare time, she enjoys outswagging plebs on Rocket League.
                             </p>    
                             <h5>
-                                Contact: izzybenavente@gmail.com <br />
+                                Contact: <a href="mailto:izzybenavente@gmail.com">izzybenavente@gmail.com</a> <br />
                                 Portfolio Site: <a href="http://izzybenavente.me/" target="_blank">http://izzybenavente.me/</a>
                             </h5>
                         </div>
                         
                         <div class="pure-u-1-5 content-image">
-                            <img class="centered-image" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-1/c14.45.492.492/10703_841228665923659_8776625523649321579_n.jpg?oh=63b3a0a869a4bbf941dcc3c5204e04b5&oe=57EEC843">
+                            <img class="profile-image" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-1/c14.45.492.492/10703_841228665923659_8776625523649321579_n.jpg?oh=63b3a0a869a4bbf941dcc3c5204e04b5&oe=57EEC843">
                         </div>
                         <div class="pure-u-4-5">
                             <h2>Zach Chaco</h2>
@@ -111,14 +120,14 @@
                             Zach Chaco is a senior studying Computer Science (Games) at USC. He enjoys working with various teams on projects and events and is interested in team development and production. His interests outside of gaming include wearing suits, reading comic books, and community organizing, especially witin the Filipino community. 
                             </p> 
                             <h5>
-                                Contact: zjchaco12@gmail.com
+                                Contact: <a href="mailto:zjchaco12@gmail.com">zjchaco12@gmail.com</a>
                             </h5>
                         </div>
                     </div>
 
                     <div id="Design" class="pure-g tabcontent">
                         <div class="pure-u-1-5 content-image">
-                            <img class="centered-image" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAOCAAAAJGYyY2JhZmMxLTUwN2MtNDZjZS1hZGU4LWUxYmUxMDU5OTQyZA.jpg">
+                            <img class="profile-image" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAOCAAAAJGYyY2JhZmMxLTUwN2MtNDZjZS1hZGU4LWUxYmUxMDU5OTQyZA.jpg">
                         </div>
                         <div class="pure-u-4-5">
                             <h2>Charles Hankins III</h2>
@@ -127,12 +136,12 @@
                             Charles is a senior at USC majoring in Computer Science (Games). A long history as a multi-sport athlete and an enthusiast of many different game genres has led him to pursue game design, programming, and team management. Outside of game making, Charles is an avid fan of hockey and competitive Super Smash Bros. and recently has been learning how to play both. 
                             </p>    
                             <h5>
-                                Contact: chankthethird@gmail.com
+                                Contact: <a href="mailto:chankthethird@gmail.com">chankthethird@gmail.com</a>
                             </h5>
                         </div>
                         
                         <div class="pure-u-1-5 content-image">
-                            <img class="centered-image" src="http://placehold.it/100x100">
+                            <img class="profile-image" src="http://placehold.it/200x200">
                         </div>
                         <div class="pure-u-4-5">
                             <h2>Valerie Lin</h2>
@@ -141,14 +150,14 @@
                             Valerie is a junior at USC studying Interactive Media with a double minor in Computer Programming and Neuroscience. She talks way too much about VR and worked as a VR developer at Sony. She mains Tracer in Overwatch and hates good Soldier 76s with the passion of a thousand burning suns. 
                             </p> 
                             <h5>
-                                Contact: randomfire27@gmail.com
+                                Contact: <a href="mailto:randomfire27@gmail.com">randomfire27@gmail.com</a>
                             </h5>
                         </div>
                     </div>
                     
                     <div id="Engineering" class="pure-g tabcontent">
                         <div class="pure-u-1-5 content-image">
-                            <img class="centered-image" src="http://i.imgur.com/37UiyIZ.gif">
+                            <img class="profile-image" src="http://i.imgur.com/37UiyIZ.gif">
                         </div>
                         <div class="pure-u-4-5">
                             <h2>Aaron Hong</h2>
@@ -157,13 +166,13 @@
                             Aaron is the current lead engineer for Skyshot, and a senior studying Computer Science Games at USC. I am very bad at Overwatch. He enjoys jazz music and competitive video games.
                             </p>    
                             <h5>
-                                Contact: hong.aaron.c@gmail.com <br />
+                                Contact: <a href="mailto:hong.aaron.c@gmail.com">hong.aaron.c@gmail.com</a><br />
                                 Portfolio Site: <a href="http://aaron-hong.com" target="_blank">http://aaron-hong.com</a>
                             </h5>
                         </div>
                         
                         <div class="pure-u-1-5 content-image">
-                            <img class="centered-image" src="http://placehold.it/100x100">
+                            <img class="profile-image" src="http://placehold.it/200x200">
                         </div>
                         <div class="pure-u-4-5">
                             <h2>Nathan Iskandar</h2>
@@ -176,7 +185,7 @@
                             </h5>
                         </div>
                         <div class="pure-u-1-5 content-image">
-                            <img class="centered-image" src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/12795466_1048789045143509_7027098214774365609_n.jpg?oh=92d7ca76478b9b614935b47140d5c43c&oe=57C973E4">
+                            <img class="profile-image" src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/12795466_1048789045143509_7027098214774365609_n.jpg?oh=92d7ca76478b9b614935b47140d5c43c&oe=57C973E4">
                         </div>
                         <div class="pure-u-4-5">
                             <h2>Steven Truong</h2>
@@ -185,11 +194,11 @@
                             Steven is a senior that is probably the only Computer Science (!Games) major on the team, but is pursuing a minor in video game programming. He likes history trivia, sci-fi movies, chicken nuggets, and dried mangoes.  
                             </p>    
                             <h5>
-                                Contact: snhant@gmail.com
+                                Contact: <a href="mailto:snhant@gmail.com">snhant@gmail.com</a>
                             </h5>
                         </div>                        
                         <div class="pure-u-1-5 content-image">
-                            <img class="centered-image" src="http://placehold.it/100x100">
+                            <img class="profile-image" src="http://placehold.it/200x200">
                         </div>
                         <div class="pure-u-4-5">
                             <h2>Kyle San</h2>
@@ -205,7 +214,7 @@
                     
                     <div id="Usability" class="pure-g tabcontent">
                         <div class="pure-u-1-5 content-image">
-                            <img class="centered-image" src="http://placehold.it/100x100">
+                            <img class="profile-image" src="http://placehold.it/200x200">
                         </div>
                         <div class="pure-u-4-5">
                             <h2>Devin Li</h2>
@@ -219,7 +228,7 @@
                         </div>
                         
                         <div class="pure-u-1-5 content-image">
-                            <img class="centered-image" src="http://placehold.it/100x100">
+                            <img class="profile-image" src="http://placehold.it/200x200">
                         </div>
                         <div class="pure-u-4-5">
                             <h2>Audrey Cheng</h2>
@@ -232,7 +241,7 @@
                             </h5>
                         </div>
                         <div class="pure-u-1-5 content-image">
-                            <img class="centered-image" src="https://lh3.googleusercontent.com/ot5AV3ymmTCYGmuezx6j2FG11zBFonnI9qjJHcyynRLvqBtZDB-yJeTz4W5ahSrPMpYsee5HLkFMrrwo-OOecRNWI5Ihd_dhGuXuDOG91HZHBfm3-1lRanl40HytVU7By2ccLN3Xblvmy_0Sr-9EdlFNzj3Fp-rQvoITvshtBNWwfFRs8NBRmUACQWNC4DR7GYPKrDlqObCj6xm-aiCUBvsyqjKJmFlLrx2j83TwCwuV3eMX5611hy3SQAMz-RuILPWuJOWBP70TFNWxU-YpErZJqDi1ugP2WSFDqtjGZekVJSF24XxjfOAuTU4uea2keugRcZAfT586H_TfhNU_i5Xl0V5jNpF_B9_4L3Ttwx3j29C1ISwk1M_b4ifH3dY7QTvormnvdjSgWGPZG68oIkzvpcG8X3GzScTXI5XURvT653FB-YMm2OoZO14au5MstZEKCnXYIERKHQEPAMjC5v_07c6Q718oO6Gt3nmE5WYjunQLDQ4NZqQeXjAzSHnfNwPaqhfGSFhmrCQJXPFhhXnGCPdm8qS0UjqWpCJul8ogKJjwszCkJQZpuG_5PRYYRwVHvH3y13agx8mbnbrMVU6gE4gFuuw=w664-h995-no">
+                            <img class="profile-image" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-0/p206x206/13418842_1327852927228164_5950918443048318625_n.jpg?oh=df7bc2c7e46dcfb708c1a0385f752dae&oe=582C58A5">
                         </div>
                         <div class="pure-u-4-5">
                             <h2>Albert Yue</h2>
@@ -241,28 +250,28 @@
                             Yue discovered the joys of PvP and computer games through Starcraft Brood War. From there,  his competitive spirit and passion for computers lead him to study Computer Science (Games) at USC. His hobbies outside of gaming consist of martial arts, card tricks, longboarding, and building gundam model kits.
                             </p>    
                             <h5>
-                                Contact: albertalbert9595@gmail.com
+                                Contact: <a href="mailto:albertalbert9595@gmail.com">albertalbert9595@gmail.com</a>
                             </h5>
                         </div>     
                     </div>    
                     
                     <div id="Art" class="pure-g tabcontent">
                         <div class="pure-u-1-5 content-image">
-                            <img class="centered-image" src="http://placehold.it/100x100">
+                            <img class="profile-image" src="http://placehold.it/200x200">
                         </div>
                         <div class="pure-u-4-5">
                             <h2>Jasmine Ying</h2>
                             <h3>Art Lead</h3>
                             <p>
-                            Jasmine is a senior at USC in the Computer Science (Games) program and the current art lead on Team Skyshot. 
+                            Jasmine is a senior at USC in the Computer Science (Games) program and the current art lead on Team Skyshot. Her past experience includes engineering work on both mobile games and AAA. Outside of work she enjoys TV, anime, movies, and cosplaying. She loves games with vivid art and storytelling, and when not making games you can usually find her trapped in FFXIV or playing a game of Overwatch.
                             </p>    
                             <h5>
-                                Contact: jazying@gmail.com
+                                Contact: <a href="mailto:jazying@gmail.com">jazying@gmail.com</a>
                             </h5>
                         </div>
                         
                         <div class="pure-u-1-5 content-image">
-                            <img class="centered-image" src="http://placehold.it/100x100">
+                            <img class="profile-image" src="http://placehold.it/200x200">
                         </div>
                         <div class="pure-u-4-5">
                             <h2>Richard Chen</h2>
@@ -279,7 +288,7 @@
                             </h5>
                         </div>
                         <div class="pure-u-1-5 content-image">
-                            <img class="centered-image" src="http://placehold.it/100x100">
+                            <img class="profile-image" src="http://placehold.it/200x200">
                         </div>
                         <div class="pure-u-4-5">
                             <h2>Miguel Ocana</h2>
@@ -288,7 +297,7 @@
                             Miguel is a senior studying Game Design at USC Interactive Media. He likes to improve his skills both in 2D and 3D art when he has the chance, as well as any other skills related to Game Development. Some of his interests include coop games, films, comic books, tv shows, science fiction, and the ocational recreational sports.
                             </p>    
                             <h5>
-                                Contact: miguelocanamercado@gmail.com <br />
+                                Contact: <a href="mailto:miguelocanamercado@gmail.com">miguelocanamercado@gmail.com</a><br />
                                 Portfolio Site: 
                                 <a href="https://pathbrite.com/miguelocanam/IwII" target="_blank">
                                     https://pathbrite.com/miguelocanam/IwII
@@ -296,7 +305,7 @@
                             </h5>
                         </div>                        
                         <div class="pure-u-1-5 content-image">
-                            <img class="centered-image" src="http://placehold.it/100x100">
+                            <img class="profile-image" src="http://placehold.it/200x200">
                         </div>
                         <div class="pure-u-4-5">
                             <h2>Caroline Chiou</h2>
@@ -305,7 +314,7 @@
                             Caroline Chiou is a senior Fine Arts major at USC, and is a concept artist on Skyshot. She spends most of her time drawing and playing RPGs, but also enjoys participating in game jams.
                             </p> 
                             <h5>
-                                Contact: chioucaroline@gmail.com <br />
+                                Contact: <a href="mailto:chioucaroline@gmail.com">chioucaroline@gmail.com</a><br />
                                 Portfolio Site: 
                                 <a href="http://carolinechiou.com" target="_blank">
                                     http://carolinechiou.com
@@ -316,7 +325,7 @@
                     
                     <div id="Audio" class="pure-g tabcontent">
                         <div class="pure-u-1-5 content-image">
-                            <img class="centered-image" src="http://placehold.it/100x100">
+                            <img class="profile-image" src="http://placehold.it/200x200">
                         </div>
                         <div class="pure-u-4-5">
                             <h2>Thomas Kelleher</h2>
@@ -325,13 +334,16 @@
                             Thomas is the Lead Audio Designer of Skyshot, and a senior undergraduate student at USC.  He studies Interactive Media with minors in Game Programming and Game Audio Design.  Thomas has worked as a VR game developer for Sony, and is a sound designer for Magnus, which will soon be available on Steam.  He loves fighting games, horror movies, and The Americans.
                             </p>    
                             <h5>
-                                Contact: ThomasKWasTaken@gmail.com <br />
-                                Portfolio Site: <a href="www.thomasjkelleher.com" target="_blank">www.thomasjkelleher.com</a>
+                                Contact: <a href="mailto:ThomasKWasTaken@gmail.com">ThomasKWasTaken@gmail.com</a><br />
+                                Portfolio Site: 
+                                <a href="http://www.thomasjkelleher.com" target="_blank">
+                                    http://thomasjkelleher.com
+                                </a>
                             </h5>
                         </div>
                         
                         <div class="pure-u-1-5 content-image">
-                            <img class="centered-image" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/13177405_10207585462567071_3835855566324692968_n.jpg?oh=520e0e82b0b8a6082cc5d06713a34686&oe=57F3BDE0">
+                            <img class="profile-image" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/13177405_10207585462567071_3835855566324692968_n.jpg?oh=520e0e82b0b8a6082cc5d06713a34686&oe=57F3BDE0">
                         </div>
                         <div class="pure-u-4-5">
                             <h2>Davis Natzle</h2>
@@ -344,7 +356,7 @@
                             </h5>
                         </div>
                         <div class="pure-u-1-5 content-image">
-                            <img class="centered-image" src="http://placehold.it/100x100">
+                            <img class="profile-image" src="http://placehold.it/200x200">
                         </div>
                         <div class="pure-u-4-5">
                             <h2>Alvin Liang</h2>
@@ -357,7 +369,7 @@
                             </h5>
                         </div>                        
                         <div class="pure-u-1-5 content-image">
-                            <img class="centered-image" src="http://placehold.it/100x100">
+                            <img class="profile-image" src="http://placehold.it/200x200">
                         </div>
                         <div class="pure-u-4-5">
                             <h2>Graham Southern</h2>
