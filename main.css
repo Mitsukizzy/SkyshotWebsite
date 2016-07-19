@@ -98,6 +98,13 @@ a{
     color: #222;
 }
 
+.landing-info{    
+    font-size: 1.6em;
+    margin: 2em 0;
+    padding: 2em 1.2em 0 0;
+}
+
+
 .video-content {
     padding-top: 2em !important;
     text-align: center;
@@ -109,11 +116,18 @@ a{
 }
 
 .video-container {
+    text-align: center;
 	position: relative;
 	padding-bottom: 56.25%;
 	padding-top: 1em;
 	height: 0;
 	overflow: hidden;
+}
+.video-container iframe, 
+.video-container object, 
+.video-container embed {
+	width: 80vmin;
+	height: 45vmin;
 }
 
 .news-content{
