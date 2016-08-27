@@ -138,8 +138,16 @@ a{
     background-color: #fff;
     margin: auto;
     overflow: auto;
-    text-align:center;
-    vertical-align:middle;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.news-header{
+    text-align: center;
+    margin: 2em 0;
+    padding: 0.5em 0 0.5em 0;
+    cursor: pointer;
+    color: #222;
 }
 
 .feed {
@@ -160,7 +168,8 @@ a{
 
 .team-header{
     text-align: center;
-    padding: 0.6em 0 1em 0;
+    margin-top: 2em;
+    padding: 0.5em 0 0.5em 0;
     cursor: pointer;
 }
 
@@ -205,12 +214,16 @@ a{
 .content-image{
     text-align: center;
 }
+.teamicon-image{
+    max-height: 125px;
+    max-width: 125px;
+}
 .profile-image{  
     position: relative;
     top: 50%;
     transform: translateY(15%);
-    max-height: 125px;
-    max-width: 125px;
+    max-height: 100px;
+    max-width: 100px;
     border-radius: 50%;
 }
 .group-image{
