@@ -57,6 +57,15 @@ a{
     height:100%;
 }
 
+#navbar-logo:hover {
+    background-image:url('img/LogoBlack_Small.fw.png');
+}
+
+.navbar li a:hover {
+    background-color:#ffcc00;
+    color:#000;
+}
+
 .galleria { 
     width: 100vw; 
     height: 100vh; 
@@ -84,7 +93,7 @@ a{
 
 .landing-content-container {
     width:100%;
-    background:#fff;
+    background-image:url('img/backgrounds/ererer.png');
 }
 
 .landing-content {
