@@ -93,7 +93,7 @@ a{
 
 .landing-content-container {
     width:100%;
-    background-image:url('img/backgrounds/ererer.png');
+    background-image:url('img/backgrounds/darkTiler.png');
 }
 
 .landing-content {
@@ -144,7 +144,7 @@ a{
     height: 100vh;
     width: 100%;
     max-width: 1280px;
-    background-color: #fff;
+    background-image: url(img/backgrounds/lightTiler.png);
     margin: auto;
     overflow: auto;
     text-align: center;
@@ -170,7 +170,7 @@ a{
 .team-content{
     height: 100vh;
     width: 100%;
-    background-image: url(http://www.wallpapereast.com/static/images/pattern-wallpapers.jpg);
+    background-image: url(img/backgrounds/darkTiler.png);
     margin: auto;
     overflow: auto;
 }
@@ -200,12 +200,14 @@ a{
     background: #000; 
     min-height: 50vh;
     text-align: left;
-    transition: all 10.2s ease-in-out; 
+    transition: max-height 5s ease-out;
 }
 .content > div {
     display: none; 
     padding: 3em 8em 2em 8em;
     color: #777;
+    max-height: 2000px;
+    transition: max-height 5s ease-in;
 }
 .content h2{
     color: #87CEEB;
