@@ -140,15 +140,19 @@ a{
 	height: 45vmin;
 }
 
-.news-content{
+.news-container{
     height: 100vh;
     width: 100%;
-    max-width: 1280px;
     background-image: url(img/backgrounds/lightTiler.png);
-    margin: auto;
-    overflow: auto;
     text-align: center;
     vertical-align: middle;
+}
+
+.news-content{
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    overflow: auto;
 }
 
 .news-header{
