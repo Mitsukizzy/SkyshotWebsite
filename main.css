@@ -93,7 +93,7 @@ a{
 
 .landing-content-container {
     width:100%;
-    background-image:url('img/backgrounds/darkTiler.png');
+    background: #000;
 }
 
 .landing-content {
@@ -102,16 +102,18 @@ a{
     /*background-color:#fcc;*/
     margin:auto;
     overflow:auto;
+    color: #FFF;
 }
 
 .landing-content h1 {
-    color: #222;
+    color: #FFF;
 }
 
 .landing-info{    
     font-size: 1.6em;
     margin: 2em 0;
     padding: 2em 1.2em 0 0;
+    color: #DDD;
 }
 
 
@@ -119,10 +121,6 @@ a{
     padding-top: 2em !important;
     text-align: center;
     /*background-color:#ccf5ff;*/
-}
-
-.video-content h1{
-    color: #222;
 }
 
 .video-container {
@@ -204,14 +202,11 @@ a{
     background: #000; 
     min-height: 50vh;
     text-align: left;
-    transition: max-height 5s ease-out;
 }
 .content > div {
     display: none; 
     padding: 3em 8em 2em 8em;
     color: #777;
-    max-height: 2000px;
-    transition: max-height 5s ease-in;
 }
 .content h2{
     color: #87CEEB;
@@ -261,7 +256,9 @@ a{
 }
 
 .active{
-    background-color: #87CEEB !important;
+    background-color: #87CEEB !important;    
+    max-height: 2000px;
+    transition: max-height 5s ease-in;
 }
 
 .tabcontent {

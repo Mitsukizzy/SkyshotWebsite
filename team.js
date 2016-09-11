@@ -16,8 +16,13 @@ function selectTab( evt, tabName ) {
 
     // Show the current tab, and add an "active" class to the link that opened the tab
     document.getElementById( tabName ).style.display = "block";
+    var wrapper = $('.content');
     if ( tabName != "Default" ) {
         evt.currentTarget.className += " active";
+        evt.currentTarget.animate( {height: wrapper.height()} , function(){
+            // show the inner div
+            wrapper.fadeTo('slow', 10000);
+        });
     }        
 }
 
