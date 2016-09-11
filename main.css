@@ -69,7 +69,7 @@ a{
 .galleria { 
     width: 100vw; 
     height: 95vh;
-    background: #000 
+    background: #000;
 }
 .pure-menu a {
     line-height:2em;
