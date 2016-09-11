@@ -68,7 +68,7 @@ a{
 
 .galleria { 
     width: 100vw; 
-    height: 100vh; 
+    height: 95.1vh;; 
     background: #000 
 }
 .pure-menu a {
@@ -141,7 +141,7 @@ a{
 }
 
 .news-container{
-    height: 100vh;
+    height: 95.1vh;
     width: 100%;
     background-image: url(img/backgrounds/lightTiler.png);
     text-align: center;
@@ -172,7 +172,7 @@ a{
 }
 
 .team-content{
-    height: 100vh;
+    height: 95.1vh;
     width: 100%;
     background-image: url(img/backgrounds/darkTiler.png);
     margin: auto;
