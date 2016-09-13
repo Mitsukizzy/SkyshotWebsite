@@ -207,7 +207,9 @@ a{
     display: none; 
     padding: 3em 8em 2em 8em;
     color: #777;
+    transition: all 5s ease;
 }
+
 .content h2{
     color: #87CEEB;
 }
@@ -225,8 +227,11 @@ a{
     text-align: center;
 }
 .teamicon-image{
-    max-height: 125px;
-    max-width: 125px;
+    max-height: 13vmin;
+    max-width: 13vmin;
+}
+label h2{
+    font-size: 2.6vmin;
 }
 .profile-image{  
     position: relative;
