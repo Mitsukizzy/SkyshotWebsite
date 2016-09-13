@@ -202,12 +202,14 @@ a{
     background: #000; 
     min-height: 50vh;
     text-align: left;
+    height: auto !important;
+    transition: all 5s ease;
 }
+
 .content > div {
     display: none; 
     padding: 3em 8em 2em 8em;
     color: #777;
-    transition: all 5s ease;
 }
 
 .content h2{
@@ -261,9 +263,7 @@ label h2{
 }
 
 .active{
-    background-color: #87CEEB !important;    
-    max-height: 2000px;
-    transition: max-height 5s ease-in;
+    background-color: #87CEEB !important;
 }
 
 .tabcontent {
