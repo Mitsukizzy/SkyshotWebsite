@@ -183,11 +183,24 @@ a{
     overflow: auto;
 }
 
+.team-content-border{
+    padding: 5vmin;
+    width: 65vw;
+    height: auto;
+    margin: 10vmin auto;
+    background-color: #222;
+}
+
 .team-header{
     text-align: center;
     margin-top: 2em;
     padding: 0.5em 0 0.5em 0;
     cursor: pointer;
+}
+
+.team-member{
+    margin: 5vmin 0;
+    min-height: 15vmin;
 }
 
 /* START: Team Page Tab Logic and Styling */
@@ -205,8 +218,8 @@ a{
 }
 
 .content {
-    background: #000; 
-    min-height: 50vh;
+/*    background: #000; 
+    min-height: 50vh;*/
     text-align: left;
     height: auto !important;
     transition: all 5s ease;
@@ -214,7 +227,7 @@ a{
 
 .content > div {
     display: none; 
-    padding: 3em 8em 2em 8em;
+/*    padding: 3em 8em 2em 8em;*/
     color: #777;
 }
 
@@ -225,7 +238,6 @@ a{
     padding: 0 0 5px 0;
 }
 .content h5{
-    margin: 5px 0 75px 0;
     font-family: "Open Sans", sans-serif;
 }
 .content a{
@@ -235,8 +247,8 @@ a{
     text-align: center;
 }
 .teamicon-image{
-    max-height: 13vmin;
-    max-width: 13vmin;
+    height: 12vmin;
+    width: 12vmin;
 }
 label h2{
     font-size: 2.6vmin;
@@ -245,8 +257,8 @@ label h2{
     position: relative;
     top: 50%;
     transform: translateY(15%);
-    max-height: 100px;
-    max-width: 100px;
+    max-height: 125px;
+    max-width: 125px;
     border-radius: 50%;
 }
 .group-image{
@@ -275,6 +287,7 @@ label h2{
 .tabcontent {
     -webkit-animation: fadeEffect 1s;
     animation: fadeEffect 1s; /* Fading effect takes 1 second */
+    margin-top: 5vmin;
 }
 
 @-webkit-keyframes fadeEffect {

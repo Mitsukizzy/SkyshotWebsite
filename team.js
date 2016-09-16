@@ -26,5 +26,5 @@ function selectTab( evt, tabName ) {
 }
 
 $(window).on("load", function() { // Waits for entire page to be ready, including images
-    selectTab(event, 'Default');
+    selectTab(event, 'Production');
 });
