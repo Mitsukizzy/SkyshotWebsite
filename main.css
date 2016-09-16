@@ -35,6 +35,9 @@ p{
 a{
     text-decoration: none;
 }
+.fa-2x{
+    font-size: 1.8em !important;
+}
 
 .navbar {
     position: fixed;
@@ -76,6 +79,7 @@ a{
 .pure-menu a {
     line-height:2em;
     font-family: Roboto;
+    color: #FFF;
 }
 
 .splashart {
