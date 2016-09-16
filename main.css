@@ -66,10 +66,12 @@ a{
     color:#000;
 }
 
-.galleria { 
+.gallery-content {
+    background: #000;
+}
+.galleria {     
     width: 100vw; 
     height: 95vh;
-    background: #000;
 }
 .pure-menu a {
     line-height:2em;
@@ -287,7 +289,7 @@ label h2{
     background-color: #222;
     color: #fff;
     display: block;
-    height: 3em;
+    height: 5vh;
     line-height: 3em;
     font-family: Roboto;
 }
