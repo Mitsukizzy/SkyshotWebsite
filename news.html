@@ -1,4 +1,4 @@
-<html>    
+﻿<html>    
     <head>
         <title>Skyshot</title>
         <meta charset="utf-8" />
@@ -49,9 +49,20 @@
                             <a href="https://www.facebook.com/teamskyshot">Skyshot</a>
                         </blockquote>
                     </div>
+                    <script>
+                        var fbWidget = document.getElementById("fb-widget");
+                        var widgetHeight = (document.body.clientHeight - 400) + "px";
+                        fbWidget.setAttribute("data-height", widgetHeight);
+                    </script>
                 </div>
                 <div class="pure-u-1-2">
-                    <a class="twitter-timeline feed" href="https://twitter.com/teamskyshot" data-width="500" data-height="500">Tweets by teamskyshot</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <a class="twitter-timeline feed" id="twitter-widget" href="https://twitter.com/teamskyshot" data-width="500" data-height="500">Tweets by teamskyshot</a> 
+                    <script>
+                        var twitterWidget = document.getElementById("twitter-widget");
+                        var widgetHeight = (document.body.clientHeight - 400) + "px";
+                        twitterWidget.setAttribute("data-height", widgetHeight);
+                    </script>
+                    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
             </div>    
         </div>
