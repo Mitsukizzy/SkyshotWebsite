@@ -1,4 +1,4 @@
-<html>    
+﻿<html>    
     <head>
         <title>Skyshot</title>
         <meta charset="utf-8" />
@@ -23,7 +23,7 @@
         <script src="galleria/galleria-1.4.2.min.js"></script>
         <script src="news.js"></script>
     </head>
-<body onclick="appendCSS();">
+<body onclick="appendCSS();" onload="resizeNewsWidgets();">
     <!-- Top Navbar -->
     <div class="pure-g navbar">
         <div class="pure-u-1 pure-u-md-2-3">
@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="pure-u-1-2">
-                    <a class="twitter-timeline feed" href="https://twitter.com/teamskyshot" data-width="500" data-height="500">Tweets by teamskyshot</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <a class="twitter-timeline feed" id="twitter-widget" href="https://twitter.com/teamskyshot" data-width="500" data-height="500">Tweets by teamskyshot</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
             </div>    
         </div>
