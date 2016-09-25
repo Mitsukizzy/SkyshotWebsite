@@ -27,4 +27,5 @@ function selectTab( evt, tabName ) {
 
 $(window).on("load", function() { // Waits for entire page to be ready, including images
     selectTab(event, 'Production');
+    document.getElementsByClassName( "first-active" )[0].className += " active";
 });

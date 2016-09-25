@@ -292,7 +292,7 @@ label h2{
 }
 
 .tablink:hover{
-    background-color: #87CCBB;
+    background-color: #7F6AA3;
 }
 
 .tablink:hover, .tablink label{
@@ -301,7 +301,7 @@ label h2{
 }
 
 .active{
-    background-color: #87CEEB !important;
+    background-color: #4F4363 !important;
 }
 
 .tabcontent {
