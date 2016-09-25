@@ -127,9 +127,24 @@ a{
     color: #DDD;
 }
 
+.landing-image1{
+    margin-top: 50px;
+    max-height: 225px;
+    max-width: 350px;
+}
+
+.landing-image2{
+    max-height: 350px;
+    max-width: 1200px;
+    margin: 50px;
+}
+
+.video-section {
+    margin: 2em 0;
+}
 
 .video-content {
-    padding-top: 2em !important;
+    padding-top: 0.5em !important;
     text-align: center;
     /*background-color:#ccf5ff;*/
 }
@@ -137,7 +152,7 @@ a{
 .video-container {
     text-align: center;
 	position: relative;
-	padding-bottom: 56.25%;
+	padding-bottom: 40%;
 	padding-top: 1em;
 	height: 0;
 	overflow: hidden;
