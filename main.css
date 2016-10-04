@@ -119,11 +119,15 @@ a{
 .landing-content h1 {
     color: #FFF;
 }
+.info-content{
+    margin: 0 auto;
+}
 
 .landing-info{    
     font-size: 1.6em;
     margin: 2em 0;
-    padding: 2em 1.2em 0 0;
+    padding-top: 2em;
+    padding-right: 1.2em;
     color: #DDD;
 }
 
@@ -140,7 +144,7 @@ a{
 }
 
 .video-section {
-    margin: 2em 0;
+    margin: 2em 0 4em 0;
 }
 
 .video-content {
@@ -148,12 +152,15 @@ a{
     text-align: center;
     /*background-color:#ccf5ff;*/
 }
+.video-content h1{
+    font-size: 1.8em;
+	padding-top: 1em;
+}
 
 .video-container {
     text-align: center;
 	position: relative;
 	padding-bottom: 40%;
-	padding-top: 1em;
 	height: 0;
 	overflow: hidden;
 }
@@ -362,6 +369,27 @@ label h2{
 }
 @media screen and (max-width: 1024px) { 
     /* lg */
+
+    .info-content{
+        text-align: center;
+    }
+    .landing-info{  
+        font-size: 1.2em;
+        padding: 0 3.6em;
+    }
+    .landing-image1{
+        max-height: 350px;
+        max-width: 80vw;
+        padding: 0 15vw 3vh 15vw;
+        margin: 0;
+    }
+    .landing-image2{
+        max-height: 350px;
+        max-width: 80vw;
+        padding: 0 10vw;
+        margin: 0;
+    }
+    
     .profile-image{  
         top: -50px;
         right: 0;
