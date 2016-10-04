@@ -255,10 +255,11 @@ a{
     color: #87CEEB;
 }
 .content h3{
-    padding: 0 0 5px 0;
+    padding-bottom: 10px;
 }
 .content h5{
     font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
 }
 .content a{
     color: #87CEEB;
@@ -373,10 +374,30 @@ label h2{
     
     .team-member{
         margin: 10vmin 5vmin;
-        min-height: 15vmin;
     }
 }
     
 @media screen and (max-width: 568px) {
     /* sm */
+    .team-content-border{
+        padding: 5vmin;
+        width: 90vw;
+        margin: 7vh auto;
+    }    
+    .teamicon-image{
+        margin: 0;
+    }  
+    .team-member{
+        margin: 15vmin 5vmin;
+    }
+    .profile-image{  
+        top: -50px;
+        right: 0;
+        max-height: 125px;
+        max-width: 125px;
+    }
+    .footer{
+        height: 7vh;
+        line-height: 7vh;
+    }
 }
