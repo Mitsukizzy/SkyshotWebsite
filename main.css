@@ -272,6 +272,7 @@ a{
 }
 label h2{
     font-size: 2.6vmin;
+    padding-bottom: 15px;
 }
 .profile-image{  
     position: relative;
@@ -333,4 +334,49 @@ label h2{
 
 .footer span, .footer i{
     vertical-align: middle;
+}
+
+
+/*ALL MOBILE MODIFICATIONS*/
+/*Made to match grid-responsive.css from PureCSS*/
+@media screen and (max-width: 1280px) {  
+    /* xl */
+    .team-content-border{
+        padding: 5vmin;
+        width: 80vw;
+        margin: 10vmin auto;
+    }
+    .team-member{
+        margin: 10vmin;
+    }
+    .content {
+        margin-top: 5em;
+    }
+    .teamicon-image{
+        margin: 2vmin 1vmin;
+    }  
+    .profile-image{  
+        right: 10%;
+    }
+}
+@media screen and (max-width: 1024px) { 
+    /* lg */
+    .profile-image{  
+        top: -50px;
+        right: 0;
+        max-height: 150px;
+        max-width: 150px;
+    }
+}
+@media screen and (max-width: 768px) {   
+    /* md */
+    
+    .team-member{
+        margin: 10vmin 5vmin;
+        min-height: 15vmin;
+    }
+}
+    
+@media screen and (max-width: 568px) {
+    /* sm */
 }
