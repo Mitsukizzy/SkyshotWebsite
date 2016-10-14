@@ -96,10 +96,10 @@ a{
     background-size:contain;
     background-position:center;
     background-repeat:no-repeat;
-    position:fixed;
+    position:absolute;
     width:100%;
     height:100%;
-    transition: 0.05s;
+    transition: 0.04s;
 }
 
 .landing-content-container {

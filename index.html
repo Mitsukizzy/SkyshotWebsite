@@ -1,4 +1,4 @@
-<html>    
+﻿<html>    
     <head>
         <title>Skyshot</title>
         <meta charset="utf-8" />
@@ -23,7 +23,7 @@
         <script src="galleria/galleria-1.4.2.min.js"></script>
         <script src="landing.js"></script>
     </head>
-<body onscroll="parallax();">
+<body onload="startParallax();" onscroll="parallax();">
     <!-- Top Navbar -->
     <div class="pure-g navbar">
         <div class="pure-u-1 pure-u-md-2-3">
@@ -40,15 +40,13 @@
     
     <div class="splashart">
         <!-- Change data-speed to adjust parallax distance -->
-        <div class="splashart-layer" data-type="background" data-speed="1" style="z-index:-1; background-image:url('img/landing/gif/Layer0.gif');"></div>
-        <div class="splashart-layer" data-type="background" data-speed="2" style="z-index:-2; background-image:url('img/landing/gif/Layer1.gif');"></div>
-        <div class="splashart-layer" data-type="background" data-speed="3" style="z-index:-3; background-image:url('img/landing/gif/Layer2.gif');"></div>
-        <div class="splashart-layer" data-type="background" data-speed="4" style="z-index:-4; background-image:url('img/landing/gif/Layer3.gif');"></div>
-        <div class="splashart-layer" data-type="background" data-speed="4" style="z-index:-5; background-image:url('img/landing/gif/Layer4.gif');"></div>
-        <div class="splashart-layer" data-type="background" data-speed="5" style="z-index:-6; background-image:url('img/landing/gif/Layer5.gif');"></div>
-        <div class="splashart-layer" data-type="background" data-speed="6" style="z-index:-7; background-image:url('img/landing/gif/Layer6.gif'); background-repeat:repeat-x;"></div>
-        <div class="splashart-layer" data-type="background" data-speed="7" style="z-index:-8; background-image:url('img/landing/gif/Layer7.gif'); background-repeat:repeat-x;"></div>
-        <div class="splashart-layer" data-type="background" data-speed="8" style="z-index:-9; background-image:url('img/landing/gif/Layer8.gif'); background-repeat:repeat-x;"></div>
+        <div class="splashart-layer" data-type="background" data-speed="2" style="z-index:-1; background-image:url('img/landing/svgupdate/ball.svg');"></div>
+        <div class="splashart-layer" data-type="background" data-speed="4" style="z-index:-2; background-image:url('img/landing/svgupdate/cityfront.svg'); background-repeat:repeat-x;"></div>
+        <div class="splashart-layer" data-type="background" data-speed="8" style="z-index:-3; background-image:url('img/landing/svgupdate/cityback.svg'); background-repeat:repeat-x;"></div>
+        <div class="splashart-layer" data-type="background" data-speed="16" style="z-index:-4; background-image:url('img/landing/svgupdate/ground.svg'); background-repeat:repeat-x;"></div>
+        <div class="splashart-layer" data-type="background" data-speed="32" style="z-index:-5; background-image:url('img/landing/svgupdate/mountain.svg'); background-repeat:repeat-x;"></div>
+        <div class="splashart-layer" data-type="background" data-speed="64" style="z-index:-6; background-image:url('img/landing/svgupdate/cloud2.svg'); background-repeat:repeat-x;"></div>
+        <div class="splashart-layer" data-type="background" data-speed="128" style="z-index:-7; background-image:url('img/landing/svgupdate/cloud1.svg'); background-repeat:repeat-x;"></div>
     </div>
 
     <div class="landing-content-container">
