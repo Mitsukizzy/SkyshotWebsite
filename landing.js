@@ -1,4 +1,4 @@
-var update = false;
+var update = true;
 
 function startParallax() {
     setInterval(unlockParallax, 8);
