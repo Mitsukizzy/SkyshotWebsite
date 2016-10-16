@@ -120,19 +120,24 @@ a{
     color: #FFF;
 }
 .info-content{
-    margin: 0 auto;
+    margin: 0 4vw;
+}
+.info-content h2{
+    padding-top: 2.6em;
+    color: #87CEEB;
 }
 
 .landing-info{    
-    font-size: 1.6em;
-    margin: 2em 0;
-    padding-top: 2em;
-    padding-right: 1.2em;
+    font-size: 1.1em;
+    margin: 1em 0;
+    padding-right: 3em;
+    font-family: Open Sans;
     color: #DDD;
 }
 
 .landing-image1{
-    margin-top: 50px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     max-height: 225px;
     max-width: 350px;
 }
@@ -140,11 +145,16 @@ a{
 .landing-image2{
     max-height: 350px;
     max-width: 1200px;
-    margin: 50px;
 }
 
 .video-section {
-    margin: 2em 0 4em 0;
+    margin: 6vh 3em;
+}
+
+.video-section h2{
+    text-align: center;
+    margin: 2em 0 1em 0;
+    color: #87CEEB;
 }
 
 .video-content {
@@ -152,23 +162,23 @@ a{
     text-align: center;
     /*background-color:#ccf5ff;*/
 }
-.video-content h1{
-    font-size: 1.8em;
-	padding-top: 1em;
+.video-content h3{
+    font-size: 1.2em;
+	padding: 1em;
 }
 
 .video-container {
     text-align: center;
 	position: relative;
-	padding-bottom: 40%;
+	padding-bottom: 60%;
 	height: 0;
 	overflow: hidden;
 }
 .video-container iframe, 
 .video-container object, 
 .video-container embed {
-	width: 80vmin;
-	height: 45vmin;
+	width: 45vmin;
+	height: 30vmin;
 }
 
 .news-container{
@@ -349,6 +359,26 @@ label h2{
 /*Made to match grid-responsive.css from PureCSS*/
 @media screen and (max-width: 1280px) {  
     /* xl */
+    .info-content{
+        text-align: center;
+    }
+    .landing-info{  
+        font-size: 1.2em;
+        padding: 0 3.6em;
+    }
+    .landing-image1{
+        max-height: 350px;
+        max-width: 80vw;
+        padding: 3vh 15vw;
+        margin: 0;
+    }
+    .landing-image2{
+        max-height: 350px;
+        max-width: 80vw;
+        padding: 0 10vw;
+        margin: 0;
+    }
+    
     .team-content-border{
         padding: 5vmin;
         width: 80vw;
@@ -368,28 +398,17 @@ label h2{
     }
 }
 @media screen and (max-width: 1024px) { 
-    /* lg */
-
-    .info-content{
-        text-align: center;
-    }
-    .landing-info{  
-        font-size: 1.2em;
-        padding: 0 3.6em;
-    }
-    .landing-image1{
-        max-height: 350px;
-        max-width: 80vw;
-        padding: 0 15vw 3vh 15vw;
-        margin: 0;
-    }
-    .landing-image2{
-        max-height: 350px;
-        max-width: 80vw;
-        padding: 0 10vw;
-        margin: 0;
-    }
+    /* lg */    
     
+    .video-container {
+        padding-bottom: 45%;
+    }
+    .video-container iframe, 
+    .video-container object, 
+    .video-container embed {
+        width: 55vmin;
+        height: 35vmin;
+    }
     .profile-image{  
         top: -50px;
         right: 0;
@@ -399,7 +418,6 @@ label h2{
 }
 @media screen and (max-width: 768px) {   
     /* md */
-    
     .team-member{
         margin: 10vmin 5vmin;
     }
