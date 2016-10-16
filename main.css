@@ -378,6 +378,10 @@ label h2{
         padding: 0 10vw;
         margin: 0;
     }
+    .video-section h2{
+        margin: 0;
+    }
+
     
     .team-content-border{
         padding: 5vmin;
@@ -409,6 +413,7 @@ label h2{
         width: 55vmin;
         height: 35vmin;
     }
+    
     .profile-image{  
         top: -50px;
         right: 0;
@@ -418,6 +423,26 @@ label h2{
 }
 @media screen and (max-width: 768px) {   
     /* md */
+    .info-content{
+        margin: 0 2vw;
+    }
+    .info-content h2{
+        padding-top: 1.6em;
+        color: #87CEEB;
+    }
+    .landing-info{    
+        font-size: 0.9em;
+    }
+    .video-container {
+        padding-bottom: 65%;
+    }
+    .video-container iframe, 
+    .video-container object, 
+    .video-container embed {
+        width: 70vmin;
+        height: 45vmin;
+    }
+    
     .team-member{
         margin: 10vmin 5vmin;
     }
