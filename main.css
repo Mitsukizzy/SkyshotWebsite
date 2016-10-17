@@ -141,11 +141,13 @@ a{
     margin-bottom: 5vh;
     max-height: 225px;
     max-width: 350px;
+    border-radius:8px;
 }
 
 .landing-image2{
     max-height: 350px;
     max-width: 1200px;
+    border-radius:8px;
 }
 
 .video-section {
@@ -174,6 +176,7 @@ a{
 	padding-bottom: 60%;
 	height: 0;
 	overflow: hidden;
+    border-radius:8px;
 }
 .video-container iframe, 
 .video-container object, 
