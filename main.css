@@ -89,6 +89,7 @@ a{
     position:relative;
     height:100vh;
     z-index:-5;
+    background:linear-gradient(#77EFCA, #F7FED5);
 }
 
 .splashart-layer {
@@ -98,7 +99,7 @@ a{
     position:absolute;
     width:100%;
     height:100%;
-    transition: 0.04s;
+    transition: 0.06s;
     transition-timing-function:ease-out;
 }
 
