@@ -71,7 +71,7 @@ a{
 .navbar li {
 	margin-left:50px;
 	margin-right:50px;
-	display: inline-block;
+	display:inline-block;
 	min-width:150px;
     transition: 0.5s;
 }

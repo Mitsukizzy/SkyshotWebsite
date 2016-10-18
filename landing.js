@@ -35,7 +35,6 @@ function fixNavbar() {
         document.getElementById("navbar-logo");
         logo.style.opacity = "1";
         logo.style.minWidth = "150px";
-        logo.style.width = "auto";
         logo.style.marginLeft = "50px";
         logo.style.marginRight = "50px";
     }
@@ -45,7 +44,6 @@ function fixNavbar() {
         navbar.style.backgroundColor = "#000";
         logo.style.opacity = "0";
         logo.style.minWidth = "0";
-        logo.style.width = "0";
         logo.style.marginLeft = "0";
         logo.style.marginRight = "0";
     }
