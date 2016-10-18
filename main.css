@@ -45,23 +45,17 @@ a{
     width: 100%;
     z-index: 200;
     background-color: #222;
-    transition: height 0.5s;
-	transition: background-color 0.5s;
+	transition: background-color 0.75s;
 	text-align:center;
 	font-size: 1.2em;
 }
 
-#navbar-logo {
+#navbar-logo a {
     background-image:url('img/LogoWhite_Small.fw.png');
     background-repeat:no-repeat;
     background-size:90%;
     background-position:center;
-    width:120px;
     height:100%;
-}
-
-#navbar-logo:hover {
-    #background-image:url('img/LogoBlack_Small.fw.png');
 }
 
 .navbar div {
@@ -79,6 +73,7 @@ a{
 	margin-right:50px;
 	display: inline-block;
 	min-width:150px;
+    transition: 0.5s;
 }
 
 .navbar li a {
