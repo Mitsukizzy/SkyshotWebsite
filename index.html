@@ -24,13 +24,13 @@
         <script src="landing.js"></script>
         <script src="SmoothScroll.js"></script>
     </head>
-<body onscroll="parallax();">
+<body onscroll="parallax(); fixNavbar();">
     <!-- Top Navbar -->
-    <div class="pure-g navbar">
+    <div class="pure-g navbar" style="position:absolute; top:100vh;" id="navbar_main">
         <div class="pure-u-1 pure-u-md-2-3">
             <div class="pure-menu pure-menu-horizontal">
                 <ul class="pure-menu-list">
-                    <li class="pure-menu-item"><a href="index.html" class="pure-menu-link" id="navbar-logo"></a></li>
+                    <!--<li class="pure-menu-item"><a href="index.html" class="pure-menu-link" id="navbar-logo"></a></li>-->
                     <li class="pure-menu-item"><a href="team.html" class="pure-menu-link">Team</a></li>
                     <li class="pure-menu-item"><a href="gallery.html" class="pure-menu-link">Gallery</a></li>
                     <li class="pure-menu-item"><a href="news.html" class="pure-menu-link">News &amp; Media</a></li>
@@ -44,13 +44,15 @@
         <div class="splashart-layer" data-type="background" data-speed="4" style="z-index:0; background-image:url('img/landing/svgupdate/cityfront.svg'); background-repeat:repeat-x;"></div>
         <div class="splashart-layer" data-type="background" data-speed="8" style="z-index:-1; background-image:url('img/landing/svgupdate/cityback.svg'); background-repeat:repeat-x;"></div>
         <div class="splashart-layer" data-type="background" data-speed="1.75" style="z-index:-2; background-image:url('img/landing/svgupdate/LogoBlack.svg'); background-size:contain;"></div>
-        <div class="splashart-layer" data-type="background" data-speed="2" style="z-index:-3; background-image:url('img/landing/svgupdate/ball.svg'); background-size:contain;"></div>
+        <div class="splashart-layer" data-type="background" data-speed="1.85" style="z-index:-3; background-image:url('img/landing/svgupdate/ball.svg'); background-size:contain;"></div>
         <div class="splashart-layer" data-type="background" data-speed="18" style="z-index:-4; background-image:url('img/landing/svgupdate/ground.svg'); background-repeat:repeat-x;"></div>
         <div class="splashart-layer" data-type="background" data-speed="40" style="z-index:-5; background-image:url('img/landing/svgupdate/mountain.svg'); background-repeat:repeat-x;"></div>
         <div class="splashart-layer" data-type="background" data-speed="128" style="z-index:-6; background-image:url('img/landing/svgupdate/cloud2.svg'); background-repeat:repeat-x;"></div>
         <div class="splashart-layer" data-type="background" data-speed="300" style="z-index:-7; background-image:url('img/landing/svgupdate/cloud.svg'); background-repeat:repeat-x;"></div>
     </div>
 
+
+    <div style="height:100px; background:#000;"></div>
     <div class="landing-content-container">
         <div class="landing-content">
             <div class="pure-g info-content">
@@ -61,7 +63,7 @@
                        
                     </p>
                 </div>
-                <div class="pure-u-1 pure-u-xl-2-5">
+                <div class="pure-u-1 pure-u-xl-2-5" style="text-align:right;">
                     <img class="landing-image1" src="img/gallery/1.jpg" />
                 </div>
 
