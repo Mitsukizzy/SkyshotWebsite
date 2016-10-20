@@ -44,7 +44,7 @@ function fixNavbar() {
         for(var i=1; i< navbarItems.length; i++) {
             navbarItems[i].style.width = "25%";
         }
-        navbarContainer.style.maxWidth = "1000px";
+        navbarContainer.style.maxWidth = "900px";
     }
     else {
         navbar.style.position = "absolute";
@@ -55,6 +55,6 @@ function fixNavbar() {
         for (var i = 1; i < navbarItems.length; i++) {
             navbarItems[i].style.width = "33%";
         }
-        navbarContainer.style.maxWidth = "750px";
+        navbarContainer.style.maxWidth = "675px";
     }
 }
