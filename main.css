@@ -50,11 +50,18 @@ a{
 	font-size: 1.2em;
 }
 
+.pure-menu-horizontal {
+	transition: 0.5s;
+	max-width:1000px;
+}
+
 #navbar-logo a {
     background-image:url('img/LogoWhite_Small.fw.png');
     background-repeat:no-repeat;
     background-size:contain;
     background-position:center;
+	display:block;
+	width:100%;
     height:100%;
 }
 
@@ -69,15 +76,19 @@ a{
 }
 
 .navbar li {
-	margin-left:50px;
-	margin-right:50px;
+	margin-left:auto;
+	margin-right:auto;
 	display:inline-block;
-	min-width:150px;
+	width:25%;
     transition: 0.5s;
+	text-align:center;
 }
 
 .navbar li a {
     border-bottom:0.1em solid #666;
+	width:100%;
+	max-width:150px;
+	margin:auto;
 }
 
 .navbar li a:hover {
