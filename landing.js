@@ -15,7 +15,7 @@ function unlockParallax() {
 }*/
 
 function parallax() {
-    if ( $(window).width() <= 600 )
+    if (window.innerWidth <= 800 && window.innerHeight <= 600)
         return;
     //if (update) {
         for (var i = 0; i < layers.length; i++) {
