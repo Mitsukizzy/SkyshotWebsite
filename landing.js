@@ -15,7 +15,7 @@ function unlockParallax() {
 }*/
 
 function parallax() {
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent))
+    if ( $(window).width() <= 600 )
         return;
     //if (update) {
         for (var i = 0; i < layers.length; i++) {
