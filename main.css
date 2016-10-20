@@ -457,7 +457,7 @@ label h2{
 @media screen and (max-width: 768px) {   
     /* md */
 	.navbar {
-		font-size: 0.8em;
+		font-size: 0.75em;
 	}
     .info-content{
         margin: 0 2vw;
