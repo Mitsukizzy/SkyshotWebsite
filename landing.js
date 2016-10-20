@@ -38,7 +38,6 @@ function fixNavbar() {
         navbar.style.position = "fixed";
         navbar.style.top = "0px";
         navbar.style.backgroundColor = "#222";
-        document.getElementById("navbar-logo");
         logo.style.opacity = "1";
         logo.style.width = "25%";
         for(var i=1; i< navbarItems.length; i++) {
