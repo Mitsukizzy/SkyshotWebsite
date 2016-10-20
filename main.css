@@ -390,7 +390,7 @@ label h2{
 @media screen and (max-width: 1280px) {  
     /* xl */
 	.navbar {
-		font-size: 1.2em;
+		font-size: 1.1em;
 	}
     .info-content{
         text-align: center;
@@ -457,7 +457,7 @@ label h2{
 @media screen and (max-width: 768px) {   
     /* md */
 	.navbar {
-		font-size: 0.9em;
+		font-size: 0.8em;
 	}
     .info-content{
         margin: 0 2vw;
