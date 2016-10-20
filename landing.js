@@ -15,6 +15,8 @@ function unlockParallax() {
 }*/
 
 function parallax() {
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent))
+        return;
     //if (update) {
         for (var i = 0; i < layers.length; i++) {
             var parallaxOffset = document.body.scrollTop / layers[i].dataset.speed;
