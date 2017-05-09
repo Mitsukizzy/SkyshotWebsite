@@ -169,7 +169,7 @@ a{
 .landing-image1{
     margin-top: 5vh;
     margin-bottom: 5vh;
-    max-height: 225px;
+    max-height: 475px;
     max-width: 350px;
     border-radius:8px;
 }
@@ -200,6 +200,14 @@ a{
 	padding: 1em;
 }
 
+.trailer-container {
+    text-align: center;
+	position: relative;
+	padding-bottom: 45%;
+	height: 0;
+	overflow: hidden;
+    border-radius:8px;
+}
 .video-container {
     text-align: center;
 	position: relative;
@@ -404,8 +412,8 @@ label h2{
         padding: 0 3.6em;
     }
     .landing-image1{
-        max-height: 350px;
-        max-width: 80vw;
+        max-height: 600px;
+        max-width: 90vw;
         padding: 3vh 15vw;
         margin: 0;
     }
@@ -441,6 +449,15 @@ label h2{
 @media screen and (max-width: 1024px) { 
     /* lg */    
     
+    .trailer-container{
+        padding-bottom: 60%;
+    }
+    .trailer-container iframe, 
+    .trailer-container object, 
+    .trailer-container embed {
+        width: 75vmin;
+        height: 45vmin;
+    }
     .video-container {
         padding-bottom: 45%;
     }
@@ -473,6 +490,16 @@ label h2{
     .landing-info{    
         font-size: 0.9em;
     }
+    .trailer-container{
+        padding-bottom: 60%;
+    }
+    .trailer-container iframe, 
+    .trailer-container object, 
+    .trailer-container embed {
+        width: 70vmin;
+        height: 45vmin;
+    }
+    
     .video-container {
         padding-bottom: 65%;
     }
