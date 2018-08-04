@@ -1,7 +1,6 @@
 # SkyshotWebsite
 #### Will be used to develop and prototype the Skyshot promotional website.
-* Github testing site: http://mitsukizzy.github.io/SkyshotWebsite
-* Live site: http://skyshotgame.com
+* Live site: http://mitsukizzy.github.io/SkyshotWebsite
 
 ## Website Developers
 * Izzy Benavente
